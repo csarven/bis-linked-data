@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:sdmx="http://purl.org/linked-data/sdmx#">
+
+        <rdf:Description rdf:about="http://bis.270a.info/provenance/activity/20140730173703">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-07-30T17:37:03Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-07-30T17:37:04Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://stats.bis.org/LBS-R?format=sdmx-ml-metadata">
+                    <foaf:page rdf:resource="http://stats.bis.org/"/>
+                    <dcterms:identifier>BIS_M_IBLR</dcterms:identifier>
+                    <dcterms:title xml:lang="en">International bank positions, by residence</dcterms:title>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated>
+                <rdf:Description rdf:about="http://bis.270a.info/data/BIS_M_IBLR.Structure.xml">
+                    <dcterms:identifier>BIS_M_IBLR</dcterms:identifier>
+                    <dcterms:title xml:lang="en">International bank positions, by residence</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved BIS_M_IBLR Structure</rdfs:label>
+            <rdfs:comment xml:lang="en">Structure of dataset BIS_M_IBLR retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+            <rdf:Description rdf:about="http://bis.270a.info/dataset/BIS_M_IBLR">
+                <dcterms:title xml:lang="en">International bank positions, by residence</dcterms:title>
+            </rdf:Description>
+
+        <rdf:Description rdf:about="http://bis.270a.info/provenance/activity/20140730173705">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-07-30T17:37:05Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-07-30T17:37:06Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://stats.bis.org/bis-stats-tool/org.bis.stats.ui.StatsApplication/ResultDownload?format=sdmx-ml-data&amp;compress=true&amp;bookmark=true&amp;query=eJxFjEEKwjAQRX%2BkEkQEV%2BJ1kjitgUrrJFqykLmMl%2FIy3kToNArOYt5%2FDPMB0z0fH8HexzSRl%2BByCme6EA6qKatK9D3LyWXX9sMEnS1gX8qV8q08GqPboGmZrjWZBcsda%2BzqvxZTN3DB5qs35l%2FMZSRYplFCLrD3mGr4F874kyCe">
+                    <foaf:page rdf:resource="http://stats.bis.org/"/>
+                    <dcterms:identifier>BIS_M_IBLR</dcterms:identifier>
+                    <dcterms:title xml:lang="en">International bank positions, by residence</dcterms:title>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated>
+                <rdf:Description rdf:about="http://bis.270a.info/data/BIS_M_IBLR.xml">
+                    <dcterms:identifier>BIS_M_IBLR</dcterms:identifier>
+                    <dcterms:title xml:lang="en">International bank positions, by residence</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved BIS_M_IBLR Data</rdfs:label>
+            <rdfs:comment xml:lang="en">Data of dataset BIS_M_IBLR retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bis.270a.info/provenance/activity/20140730173707">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-07-30T17:37:07Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-07-30T17:37:08Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://stats.bis.org/LBS-N?format=sdmx-ml-metadata">
+                    <foaf:page rdf:resource="http://stats.bis.org/"/>
+                    <dcterms:identifier>BIS_M_IBLN</dcterms:identifier>
+                    <dcterms:title xml:lang="en">International bank positions, by nationality</dcterms:title>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated>
+                <rdf:Description rdf:about="http://bis.270a.info/data/BIS_M_IBLN.Structure.xml">
+                    <dcterms:identifier>BIS_M_IBLN</dcterms:identifier>
+                    <dcterms:title xml:lang="en">International bank positions, by nationality</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved BIS_M_IBLN Structure</rdfs:label>
+            <rdfs:comment xml:lang="en">Structure of dataset BIS_M_IBLN retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+            <rdf:Description rdf:about="http://bis.270a.info/dataset/BIS_M_IBLN">
+                <dcterms:title xml:lang="en">International bank positions, by nationality</dcterms:title>
+            </rdf:Description>
+
+        <rdf:Description rdf:about="http://bis.270a.info/provenance/activity/20140730173709">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-07-30T17:37:09Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-07-30T17:37:10Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://stats.bis.org/bis-stats-tool/org.bis.stats.ui.StatsApplication/ResultDownload?format=sdmx-ml-data&amp;compress=true&amp;bookmark=true&amp;query=eJxjYGB0b649uIlBwMkzONzVKd7ZMSTY2cPV15VBDMgNDgFy4z2dfPziXRxDHN18%2FMMZgICbgYF9P5BmAtL36v%2F%2F%2F8%2FICOQxMrC4BbkGglmMIAokz8DMwAvWDzTY1d0%2FKJKBE8wNiQxwZWAP8wyOdw6JRNIMAKDzHyY%3D">
+                    <foaf:page rdf:resource="http://stats.bis.org/"/>
+                    <dcterms:identifier>BIS_M_IBLN</dcterms:identifier>
+                    <dcterms:title xml:lang="en">International bank positions, by nationality</dcterms:title>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated>
+                <rdf:Description rdf:about="http://bis.270a.info/data/BIS_M_IBLN.xml">
+                    <dcterms:identifier>BIS_M_IBLN</dcterms:identifier>
+                    <dcterms:title xml:lang="en">International bank positions, by nationality</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved BIS_M_IBLN Data</rdfs:label>
+            <rdfs:comment xml:lang="en">Data of dataset BIS_M_IBLN retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bis.270a.info/provenance/activity/20140730173711">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-07-30T17:37:11Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-07-30T17:37:12Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://stats.bis.org/CBS-IR?format=sdmx-ml-metadata">
+                    <foaf:page rdf:resource="http://stats.bis.org/"/>
+                    <dcterms:identifier>BIS_M_CIBL_IB</dcterms:identifier>
+                    <dcterms:title xml:lang="en">International bank claims, consolidated - immediate borrower basis</dcterms:title>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated>
+                <rdf:Description rdf:about="http://bis.270a.info/data/BIS_M_CIBL_IB.Structure.xml">
+                    <dcterms:identifier>BIS_M_CIBL_IB</dcterms:identifier>
+                    <dcterms:title xml:lang="en">International bank claims, consolidated - immediate borrower basis</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved BIS_M_CIBL_IB Structure</rdfs:label>
+            <rdfs:comment xml:lang="en">Structure of dataset BIS_M_CIBL_IB retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+            <rdf:Description rdf:about="http://bis.270a.info/dataset/BIS_M_CIBL_IB">
+                <dcterms:title xml:lang="en">International bank claims, consolidated - immediate borrower basis</dcterms:title>
+            </rdf:Description>
+
+        <rdf:Description rdf:about="http://bis.270a.info/provenance/activity/20140730173713">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-07-30T17:37:13Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-07-30T17:37:14Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://stats.bis.org/bis-stats-tool/org.bis.stats.ui.StatsApplication/ResultDownload?format=sdmx-ml-data&amp;compress=true&amp;bookmark=true&amp;query=eJxFjDEOwjAMRX9QpQhYWDmOHVyIFERpIqpOPgoDN%2BEiHIONqwQ3DHh578nSB9zx8XwTdhzzJKyBSg4nOQv2lrlYaoicNLIeqFCfLhPstoB%2FGVfGz73W6pyVQ9ePcm3mFix%2FdNi0iUKcBOufz4PAjzJoKDP8LeYm%2F4kvwq0hAQ%3D%3D">
+                    <foaf:page rdf:resource="http://stats.bis.org/"/>
+                    <dcterms:identifier>BIS_M_CIBL_IB</dcterms:identifier>
+                    <dcterms:title xml:lang="en">International bank claims, consolidated - immediate borrower basis</dcterms:title>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated>
+                <rdf:Description rdf:about="http://bis.270a.info/data/BIS_M_CIBL_IB.xml">
+                    <dcterms:identifier>BIS_M_CIBL_IB</dcterms:identifier>
+                    <dcterms:title xml:lang="en">International bank claims, consolidated - immediate borrower basis</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved BIS_M_CIBL_IB Data</rdfs:label>
+            <rdfs:comment xml:lang="en">Data of dataset BIS_M_CIBL_IB retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bis.270a.info/provenance/activity/20140730173715">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-07-30T17:37:15Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-07-30T17:37:16Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://stats.bis.org/CBS-UR?format=sdmx-ml-metadata">
+                    <foaf:page rdf:resource="http://stats.bis.org/"/>
+                    <dcterms:identifier>BIS_M_CIBL_UR</dcterms:identifier>
+                    <dcterms:title xml:lang="en">International bank claims, consolidated - ultimate risk basis</dcterms:title>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated>
+                <rdf:Description rdf:about="http://bis.270a.info/data/BIS_M_CIBL_UR.Structure.xml">
+                    <dcterms:identifier>BIS_M_CIBL_UR</dcterms:identifier>
+                    <dcterms:title xml:lang="en">International bank claims, consolidated - ultimate risk basis</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved BIS_M_CIBL_UR Structure</rdfs:label>
+            <rdfs:comment xml:lang="en">Structure of dataset BIS_M_CIBL_UR retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+            <rdf:Description rdf:about="http://bis.270a.info/dataset/BIS_M_CIBL_UR">
+                <dcterms:title xml:lang="en">International bank claims, consolidated - ultimate risk basis</dcterms:title>
+            </rdf:Description>
+
+        <rdf:Description rdf:about="http://bis.270a.info/provenance/activity/20140730173717">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-07-30T17:37:17Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-07-30T17:37:18Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://stats.bis.org/bis-stats-tool/org.bis.stats.ui.StatsApplication/ResultDownload?format=sdmx-ml-data&amp;compress=true&amp;bookmark=true&amp;query=eJxjYGB0bwlyjWIQcPIMDnd1ind2DAl29nD1dWWQBHKDQ4DceGdPJ5%2F40KB4F8cQRzcf%2F3AGIGBiYGC%2FCqXv1f%2F%2F%2F5%2BREchjZGBxC3INBLMYA6HqGJgZOMFGhEQGuDKwB7kGxDuHRDKwh3kGgxkIbQDeYh12">
+                    <foaf:page rdf:resource="http://stats.bis.org/"/>
+                    <dcterms:identifier>BIS_M_CIBL_UR</dcterms:identifier>
+                    <dcterms:title xml:lang="en">International bank claims, consolidated - ultimate risk basis</dcterms:title>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated>
+                <rdf:Description rdf:about="http://bis.270a.info/data/BIS_M_CIBL_UR.xml">
+                    <dcterms:identifier>BIS_M_CIBL_UR</dcterms:identifier>
+                    <dcterms:title xml:lang="en">International bank claims, consolidated - ultimate risk basis</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved BIS_M_CIBL_UR Data</rdfs:label>
+            <rdfs:comment xml:lang="en">Data of dataset BIS_M_CIBL_UR retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bis.270a.info/provenance/activity/20140730173719">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-07-30T17:37:19Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-07-30T17:37:20Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://stats.bis.org/EER?format=sdmx-ml-metadata">
+                    <foaf:page rdf:resource="http://stats.bis.org/"/>
+                    <dcterms:identifier>BIS_EER</dcterms:identifier>
+                    <dcterms:title xml:lang="en">BIS Effective Exchange Rates</dcterms:title>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated>
+                <rdf:Description rdf:about="http://bis.270a.info/data/BIS_EER.Structure.xml">
+                    <dcterms:identifier>BIS_EER</dcterms:identifier>
+                    <dcterms:title xml:lang="en">BIS Effective Exchange Rates</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved BIS_EER Structure</rdfs:label>
+            <rdfs:comment xml:lang="en">Structure of dataset BIS_EER retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+            <rdf:Description rdf:about="http://bis.270a.info/dataset/BIS_EER">
+                <dcterms:title xml:lang="en">BIS Effective Exchange Rates</dcterms:title>
+            </rdf:Description>
+
+        <rdf:Description rdf:about="http://bis.270a.info/provenance/activity/20140730173721">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-07-30T17:37:21Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-07-30T17:37:22Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://stats.bis.org/bis-stats-tool/org.bis.stats.ui.StatsApplication/ResultDownload?format=sdmx-ml-data&amp;compress=true&amp;bookmark=true&amp;query=eJxjYGB0b97An88g4OQZHO7qFO%2FsGBLs7OHq68ogBBVxdQ1ycQxxdPPxD2eAAPY1QIIVSN%2Br%2F%2F%2F%2FPyMjkMfIwOIW5BoIZjH6ghQxATEzAwdQd3xIZIArAxeI5eQY7O0awsAR5OoW7xjk6oikEwATchvD">
+                    <foaf:page rdf:resource="http://stats.bis.org/"/>
+                    <dcterms:identifier>BIS_EER</dcterms:identifier>
+                    <dcterms:title xml:lang="en">BIS Effective Exchange Rates</dcterms:title>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated>
+                <rdf:Description rdf:about="http://bis.270a.info/data/BIS_EER.xml">
+                    <dcterms:identifier>BIS_EER</dcterms:identifier>
+                    <dcterms:title xml:lang="en">BIS Effective Exchange Rates</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved BIS_EER Data</rdfs:label>
+            <rdfs:comment xml:lang="en">Data of dataset BIS_EER retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bis.270a.info/provenance/activity/20140730173723">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-07-30T17:37:23Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-07-30T17:37:24Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://stats.bis.org/creditopriv?format=sdmx-ml-metadata">
+                    <foaf:page rdf:resource="http://stats.bis.org/"/>
+                    <dcterms:identifier>BIS_TOTAL_CREDIT</dcterms:identifier>
+                    <dcterms:title xml:lang="en">BIS Credit to non-financial private sector</dcterms:title>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated>
+                <rdf:Description rdf:about="http://bis.270a.info/data/BIS_TOTAL_CREDIT.Structure.xml">
+                    <dcterms:identifier>BIS_TOTAL_CREDIT</dcterms:identifier>
+                    <dcterms:title xml:lang="en">BIS Credit to non-financial private sector</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved BIS_TOTAL_CREDIT Structure</rdfs:label>
+            <rdfs:comment xml:lang="en">Structure of dataset BIS_TOTAL_CREDIT retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+            <rdf:Description rdf:about="http://bis.270a.info/dataset/BIS_TOTAL_CREDIT">
+                <dcterms:title xml:lang="en">BIS Credit to non-financial private sector</dcterms:title>
+            </rdf:Description>
+
+        <rdf:Description rdf:about="http://bis.270a.info/provenance/activity/20140730173725">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-07-30T17:37:25Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-07-30T17:37:26Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://stats.bis.org/bis-stats-tool/org.bis.stats.ui.StatsApplication/ResultDownload?format=sdmx-ml-data&amp;compress=true&amp;bookmark=true&amp;query=eJxNjNsJQjEQRCdyRXyBFdiAWEQee%2FVKNJisBL%2B2FD9swfYsReLqh7gwnDkMLGB29%2B1rg5UbSiUn3nLxezoS1qqFVYUT2yg%2BUxhYgmXbx1ShNwYmD%2BVc%2Bby11oxRM%2Bj6TOdvMx9gpOmwdCnnVCkX8XzFjL1EOgV1LLT%2FVkzVbDhcCv99ewMlJyWd">
+                    <foaf:page rdf:resource="http://stats.bis.org/"/>
+                    <dcterms:identifier>BIS_TOTAL_CREDIT</dcterms:identifier>
+                    <dcterms:title xml:lang="en">BIS Credit to non-financial private sector</dcterms:title>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated>
+                <rdf:Description rdf:about="http://bis.270a.info/data/BIS_TOTAL_CREDIT.xml">
+                    <dcterms:identifier>BIS_TOTAL_CREDIT</dcterms:identifier>
+                    <dcterms:title xml:lang="en">BIS Credit to non-financial private sector</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved BIS_TOTAL_CREDIT Data</rdfs:label>
+            <rdfs:comment xml:lang="en">Data of dataset BIS_TOTAL_CREDIT retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+</rdf:RDF>

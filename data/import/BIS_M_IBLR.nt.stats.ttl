@@ -1,0 +1,260 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+<http://bis.270a.info/dataset/BIS_M_IBLR>
+    void:classPartition [
+        void:class <http://www.w3.org/ns/prov#Usage> ;
+        void:entities 2
+    ], [
+        void:class <http://www.w3.org/ns/prov#Association> ;
+        void:entities 1
+    ], [
+        void:class <http://www.w3.org/ns/prov#Activity> ;
+        void:entities 1
+    ], [
+        void:class qb:Observation ;
+        void:entities 2197295
+    ], [
+        void:class qb:Slice ;
+        void:entities 22672
+    ], [
+        void:class <http://www.w3.org/ns/prov#Agent> ;
+        void:entities 2
+    ], [
+        void:class <http://www.w3.org/ns/prov#Entity> ;
+        void:entities 3
+    ], [
+        void:class qb:DataSet ;
+        void:entities 1
+    ] ;
+    void:classes 8 ;
+    void:entities 2219982 ;
+    void:observation [
+        xstats:schema <http://www.w3.org/1999/02/22-rdf-syntax-ns#> ;
+        xstats:subjectsOfType rdf:type ;
+        xstats:value 2219977 ;
+        a qb:Observation
+    ], [
+        xstats:schema <http://www.w3.org/2000/01/rdf-schema#> ;
+        xstats:subjectsOfType <http://www.w3.org/2000/01/rdf-schema#label> ;
+        xstats:value 5 ;
+        a qb:Observation
+    ] ;
+    void:properties 40 ;
+    void:propertyPartition [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/ns/prov#wasInformedBy> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/ns/prov#startedAtTime> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 145 ;
+        void:distinctSubjects 2219967 ;
+        void:property <http://bis.270a.info/dimension/1.0/BIS_CONCEPT_SCHEME/IBLR_CURR> ;
+        void:triples 2219967
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property qb:structure ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 2 ;
+        void:property <http://www.w3.org/ns/prov#atTime> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 96 ;
+        void:distinctSubjects 2219967 ;
+        void:property <http://bis.270a.info/dimension/1.0/BIS_CONCEPT_SCHEME/IBLR_CATEGORY> ;
+        void:triples 2219967
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/ns/prov#wasGeneratedBy> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/ns/prov#wasDerivedFrom> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/issued> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/ns/prov#used> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 4984 ;
+        void:distinctSubjects 2219967 ;
+        void:property <http://bis.270a.info/dimension/1.0/BIS_CONCEPT_SCHEME/VIS_CTY> ;
+        void:triples 2219967
+    ], [
+        void:distinctObjects 185 ;
+        void:distinctSubjects 2219976 ;
+        void:property rdf:type ;
+        void:triples 1091930
+    ], [
+        void:distinctObjects 1062 ;
+        void:distinctSubjects 2219967 ;
+        void:property <http://bis.270a.info/dimension/1.0/BIS_CONCEPT_SCHEME/REP_CTY> ;
+        void:triples 2219967
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/ns/prov#wasStartedBy> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 22672 ;
+        void:distinctSubjects 88 ;
+        void:property qb:slice ;
+        void:triples 22672
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/ns/prov#agent> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 10544 ;
+        void:distinctSubjects 2197295 ;
+        void:property <http://bis.270a.info/dimension/1.0/BIS_CONCEPT_SCHEME/TIME_PERIOD> ;
+        void:triples 2197295
+    ], [
+        void:distinctObjects 400 ;
+        void:distinctSubjects 2219967 ;
+        void:property <http://bis.270a.info/dimension/1.0/BIS_CONCEPT_SCHEME/IBLR_TYPE> ;
+        void:triples 2219967
+    ], [
+        void:distinctObjects 2197295 ;
+        void:distinctSubjects 22672 ;
+        void:property qb:observation ;
+        void:triples 2197295
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/ns/prov#generated> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/ns/prov#qualifiedAssociation> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 91 ;
+        void:distinctSubjects 2197295 ;
+        void:property <http://bis.270a.info/dimension/1.0/BIS_CONCEPT_SCHEME/FREQ> ;
+        void:triples 2197295
+    ], [
+        void:distinctObjects 92 ;
+        void:distinctSubjects 2219967 ;
+        void:property <http://bis.270a.info/dimension/1.0/BIS_CONCEPT_SCHEME/BIS_BLOCK> ;
+        void:triples 2219967
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/ns/prov#qualifiedUsage> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 133 ;
+        void:distinctSubjects 2197295 ;
+        void:property <http://bis.270a.info/attribute/1.0/BIS_CONCEPT_SCHEME/OBS_CONF> ;
+        void:triples 2197295
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/ns/prov#hadRole> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/ns/prov#wasAttributedTo> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 94 ;
+        void:distinctSubjects 2197295 ;
+        void:property <http://bis.270a.info/attribute/1.0/BIS_CONCEPT_SCHEME/COLLECTION> ;
+        void:triples 2197295
+    ], [
+        void:distinctObjects 1096696 ;
+        void:distinctSubjects 2197295 ;
+        void:property <http://bis.270a.info/measure/1.0/BIS_CONCEPT_SCHEME/OBS_VALUE> ;
+        void:triples 2197295
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://purl.org/dc/terms/creator> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 88 ;
+        void:distinctSubjects 22672 ;
+        void:property qb:sliceStructure ;
+        void:triples 22672
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/ns/prov#wasAssociatedWith> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 160 ;
+        void:distinctSubjects 2197295 ;
+        void:property <http://bis.270a.info/attribute/1.0/BIS_CONCEPT_SCHEME/OBS_STATUS> ;
+        void:triples 2197295
+    ], [
+        void:distinctObjects 242567 ;
+        void:distinctSubjects 284853 ;
+        void:property <http://bis.270a.info/attribute/1.0/BIS_CONCEPT_SCHEME/OBS_PRE_BREAK> ;
+        void:triples 284853
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://www.w3.org/ns/prov#entity> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/ns/prov#generatedAtTime> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/identifier> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 92 ;
+        void:distinctSubjects 2197295 ;
+        void:property qb:dataSet ;
+        void:triples 2197295
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/license> ;
+        void:triples 1
+    ] ;
+    void:triples 33448368 ;
+    void:vocabulary <http://bis.270a.info/attribute/1.0/BIS_CONCEPT_SCHEME/>, <http://bis.270a.info/dimension/1.0/BIS_CONCEPT_SCHEME/>, <http://bis.270a.info/measure/1.0/BIS_CONCEPT_SCHEME/>, <http://purl.org/dc/terms/>, <http://purl.org/linked-data/cube>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/ns/prov> ;
+    a void:Dataset .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+
